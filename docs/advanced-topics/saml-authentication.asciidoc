@@ -1,0 +1,14 @@
+:page_id: saml-authentication
+ifdef::env-github[]
+****
+link:https://www.elastic.co/guide/en/cloud-on-k8s/master/k8s-{page_id}.html[View this document on the Elastic website]
+****
+endif::[]
+
+[id="{p}-{page_id}"]
+= Configure SAML Authentication for Elasticsearch/Kibana
+
+The Elastic Stack supports SAML single-sign-on (SSO) into Kibana, using Elasticsearch as a backend service. In SAML terminology, the Elastic Stack is operating as a Service Provider.
+
+
+
